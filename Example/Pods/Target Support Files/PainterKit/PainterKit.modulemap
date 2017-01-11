@@ -1,0 +1,6 @@
+framework module PainterKit {
+  umbrella header "PainterKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

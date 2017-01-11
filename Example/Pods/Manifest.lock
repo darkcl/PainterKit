@@ -1,0 +1,16 @@
+PODS:
+  - PainterKit (0.1.0)
+
+DEPENDENCIES:
+  - PainterKit (from `../`)
+
+EXTERNAL SOURCES:
+  PainterKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PainterKit: 4e041a11da2e9b3ce9616a5aa964bc18e88f6101
+
+PODFILE CHECKSUM: 6a355f1ae3ac8519b3c88e863b6aee5d21a83385
+
+COCOAPODS: 1.0.0
