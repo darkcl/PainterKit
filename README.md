@@ -22,7 +22,7 @@ pod "PainterKit"
 
 ## Author
 
-Yeung Yiu Hung, yeungyiuhung@cherrypicks.com
+Yeung Yiu Hung, hkclex@gmail.com
 
 ## License
 
