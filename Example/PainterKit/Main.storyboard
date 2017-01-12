@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="whP-gf-Uak">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="whP-gf-Uak">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,12 +17,85 @@
                     <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SjY-p0-HKd" customClass="PKPainterScrollView">
+                                <rect key="frame" x="20" y="20" width="560" height="580"/>
+                            </scrollView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uVw-C6-oqr">
+                                <rect key="frame" x="20" y="550" width="560" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fhi-7X-JCu">
+                                        <rect key="frame" x="0.0" y="0.0" width="140" height="50"/>
+                                        <state key="normal" title="Brush"/>
+                                        <connections>
+                                            <action selector="brushButtonPressed:" destination="whP-gf-Uak" eventType="touchUpInside" id="Hsj-ex-eJZ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lYs-TI-VVZ">
+                                        <rect key="frame" x="140" y="0.0" width="140" height="50"/>
+                                        <state key="normal" title="Eraser"/>
+                                        <connections>
+                                            <action selector="eraserButtonPressed:" destination="whP-gf-Uak" eventType="touchUpInside" id="5H0-OI-R4q"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KFr-Bw-xiB">
+                                        <rect key="frame" x="420" y="0.0" width="140" height="50"/>
+                                        <state key="normal" title="Save"/>
+                                        <connections>
+                                            <action selector="saveButtonPressed:" destination="whP-gf-Uak" eventType="touchUpInside" id="tct-DG-s6a"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7nF-SR-EBO">
+                                        <rect key="frame" x="280" y="0.0" width="140" height="50"/>
+                                        <state key="normal" title="Scroll"/>
+                                        <connections>
+                                            <action selector="scrollButtonPressed:" destination="whP-gf-Uak" eventType="touchUpInside" id="hh2-Un-wy6"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="lYs-TI-VVZ" firstAttribute="leading" secondItem="fhi-7X-JCu" secondAttribute="trailing" id="26k-Kf-t8y"/>
+                                    <constraint firstItem="fhi-7X-JCu" firstAttribute="top" secondItem="uVw-C6-oqr" secondAttribute="top" id="4uY-2B-1tu"/>
+                                    <constraint firstItem="lYs-TI-VVZ" firstAttribute="leading" secondItem="fhi-7X-JCu" secondAttribute="trailing" id="7yv-gj-02c"/>
+                                    <constraint firstItem="7nF-SR-EBO" firstAttribute="top" secondItem="uVw-C6-oqr" secondAttribute="top" id="HDc-3g-yMI"/>
+                                    <constraint firstItem="KFr-Bw-xiB" firstAttribute="leading" secondItem="7nF-SR-EBO" secondAttribute="trailing" id="ORE-pF-Us6"/>
+                                    <constraint firstItem="lYs-TI-VVZ" firstAttribute="top" secondItem="uVw-C6-oqr" secondAttribute="top" id="ORl-vb-p4h"/>
+                                    <constraint firstItem="lYs-TI-VVZ" firstAttribute="width" secondItem="fhi-7X-JCu" secondAttribute="width" id="ObD-Hn-t9I"/>
+                                    <constraint firstAttribute="trailing" secondItem="KFr-Bw-xiB" secondAttribute="trailing" id="RdZ-QE-yiC"/>
+                                    <constraint firstAttribute="bottom" secondItem="fhi-7X-JCu" secondAttribute="bottom" id="SBT-n5-4GJ"/>
+                                    <constraint firstItem="KFr-Bw-xiB" firstAttribute="leading" secondItem="7nF-SR-EBO" secondAttribute="trailing" id="SOz-YF-7wp"/>
+                                    <constraint firstItem="KFr-Bw-xiB" firstAttribute="top" secondItem="uVw-C6-oqr" secondAttribute="top" id="WoF-2d-haC"/>
+                                    <constraint firstItem="7nF-SR-EBO" firstAttribute="leading" secondItem="lYs-TI-VVZ" secondAttribute="trailing" id="Wxj-fZ-OZr"/>
+                                    <constraint firstAttribute="bottom" secondItem="lYs-TI-VVZ" secondAttribute="bottom" id="gkV-OB-MdD"/>
+                                    <constraint firstItem="7nF-SR-EBO" firstAttribute="leading" secondItem="lYs-TI-VVZ" secondAttribute="trailing" id="qHW-BF-vcQ"/>
+                                    <constraint firstItem="fhi-7X-JCu" firstAttribute="leading" secondItem="uVw-C6-oqr" secondAttribute="leading" id="quf-el-F1f"/>
+                                    <constraint firstAttribute="height" constant="50" id="sE4-bo-OqC"/>
+                                    <constraint firstItem="KFr-Bw-xiB" firstAttribute="width" secondItem="fhi-7X-JCu" secondAttribute="width" id="tJ1-As-l6z"/>
+                                    <constraint firstAttribute="bottom" secondItem="KFr-Bw-xiB" secondAttribute="bottom" id="tyz-Ta-MNg"/>
+                                    <constraint firstItem="7nF-SR-EBO" firstAttribute="width" secondItem="fhi-7X-JCu" secondAttribute="width" id="udT-j3-uvY"/>
+                                    <constraint firstAttribute="bottom" secondItem="7nF-SR-EBO" secondAttribute="bottom" id="yvm-rF-bOU"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="SjY-p0-HKd" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" id="7Yr-LO-w1K"/>
+                            <constraint firstItem="uVw-C6-oqr" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" id="QM0-Dy-kHQ"/>
+                            <constraint firstItem="uVw-C6-oqr" firstAttribute="trailing" secondItem="TpU-gO-2f1" secondAttribute="trailingMargin" id="S8W-Di-rqc"/>
+                            <constraint firstItem="Mvr-aV-6Um" firstAttribute="top" secondItem="SjY-p0-HKd" secondAttribute="bottom" id="XAC-Kk-RVH"/>
+                            <constraint firstItem="SjY-p0-HKd" firstAttribute="trailing" secondItem="TpU-gO-2f1" secondAttribute="trailingMargin" id="fDJ-q5-ahk"/>
+                            <constraint firstItem="Mvr-aV-6Um" firstAttribute="top" secondItem="uVw-C6-oqr" secondAttribute="bottom" id="n6g-pD-2Rn"/>
+                            <constraint firstItem="SjY-p0-HKd" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" id="vFH-Aj-282"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="painterScrollView" destination="SjY-p0-HKd" id="8eJ-j4-bRC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="305" y="433"/>
+            <point key="canvasLocation" x="101" y="287"/>
         </scene>
     </scenes>
 </document>

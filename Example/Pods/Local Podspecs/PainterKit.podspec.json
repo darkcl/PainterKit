@@ -9,10 +9,10 @@
     "file": "LICENSE"
   },
   "authors": {
-    "Yeung Yiu Hung": "yeungyiuhung@cherrypicks.com"
+    "Yeung Yiu Hung": "hkclex@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/PainterKit.git",
+    "git": "https://github.com/darkcl/PainterKit.git",
     "tag": "0.1.0"
   },
   "platforms": {

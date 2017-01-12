@@ -8,15 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		0125EB501729F59F935B207F94750FB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		11AD012B6D3C01F58687367CB0C377A4 /* PKBrushDrawingTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 014303385A80CAB22CB7B10013E34E6B /* PKBrushDrawingTool.m */; };
+		1BD7B59B512C3D6816976C1096AA3C09 /* PKEraserDrawingTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 426145E07D6757D8E1A5B3E0D750DB38 /* PKEraserDrawingTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40DED97CBC044C8DD1C700DA2394ED09 /* PainterKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11FCE323916398F18478898A9497D5E5 /* PainterKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4234DDAC4C81A0F44DBA7975F12E6448 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		4A21D704F0A76E8B6CC32C6221ACFDF9 /* PKBaseDrawingTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 56B481EC8A27F86E5A050DADEE45BA32 /* PKBaseDrawingTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AD7DDFF0CFD18AB136D88F3F3C57ECD /* PKPainterLayerView.h in Headers */ = {isa = PBXBuildFile; fileRef = B9AA72D2710D7DE805BD0B9A5415C239 /* PKPainterLayerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BBACA6EE7C96A2D82054CB7DC2F657B /* PKBaseDrawingTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEC9651F898C1CB9F1442BC5A569229 /* PKBaseDrawingTool.m */; };
+		5277C34243A7061245C0D7654925B5DA /* PKPainterLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FBBB4F4FB669D2E56EEF66E71EC96F /* PKPainterLayerView.m */; };
+		7CC0DDABCC1464B9A16EF313D8A2F75B /* PKPainterContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55535663C7873AB0AB326CF52421672B /* PKPainterContentView.m */; };
+		7E625284080432148662C5A5123CD8FB /* PainterKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E75919954C8F4DCCAD4E872E832B2C78 /* PainterKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		85ADA99A9E97F4DB526CEBE104E59608 /* Pods-PainterKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C3BAF715518A9ED4CEC46E1DF923C0 /* Pods-PainterKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8BBB2074AFA6A5ADFE34948604C4CD02 /* PainterKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11FCE323916398F18478898A9497D5E5 /* PainterKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88D5DA85071F85C2AD198A64324325DC /* PKBrushDrawingTool.h in Headers */ = {isa = PBXBuildFile; fileRef = C905B2D2147EE253ADAE80E47FDAA8A8 /* PKBrushDrawingTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		941C163804C77DC6091A730CC60B6553 /* PKPainterContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 334960F3FF04478F4C9794A44F3C6FC5 /* PKPainterContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		95F50710C0FFD693127B5B6CC9BF4A31 /* Pods-PainterKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBF6B983C8BA85C5B2B82CC324F9AF4 /* Pods-PainterKit_Example-dummy.m */; };
-		A0ECA61B50659E0B168DC64B526312D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		9737DD217DF6D57D49BBE5F06741ED70 /* PKEraserDrawingTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 313D72DE6F8CD7D6749184B4F7A06D7E /* PKEraserDrawingTool.m */; };
+		A182DB2FEF948DF580D3A8F37BD2E049 /* PKPainterScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 09F1A9CCE680E00A7666AFB86554831B /* PKPainterScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A208B2DD4E9BAC86EE5593E686DA1C92 /* Pods-PainterKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C8C169BCCAAFEDD1793EB1DB3FF0DC /* Pods-PainterKit_Tests-dummy.m */; };
-		D0B837A3D685EBC6688E0D276848DA80 /* PainterKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDB185F41CDFD59A11E96C518E5DFF1 /* PainterKit-dummy.m */; };
+		AA343FD77D17437EC04DBBA8C9F0A1FF /* PainterKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDB185F41CDFD59A11E96C518E5DFF1 /* PainterKit-dummy.m */; };
+		C617002D835C8E7763FFF7CD2BF54202 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		D91ED6A59E66864F7B635C04FD954BDB /* Pods-PainterKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EEDD075062014A10445908D188EE995D /* Pods-PainterKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6962181667572756098881958A4EEB8 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC1E0F40E12BB7485FCE59EAFD40E7D /* ReplaceMe.m */; };
+		F1A7C1E2C44FD45647040FF3F96D127E /* PKPainterScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DD5E9C1163D8F8D420A80A4D3F6CB4 /* PKPainterScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,40 +36,52 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F460DFC0E8F8B66813227B031ABAB7FA;
+			remoteGlobalIDString = 64F8D4B45004845FCB943555698DA432;
 			remoteInfo = PainterKit;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		014303385A80CAB22CB7B10013E34E6B /* PKBrushDrawingTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PKBrushDrawingTool.m; sourceTree = "<group>"; };
 		02C8C169BCCAAFEDD1793EB1DB3FF0DC /* Pods-PainterKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PainterKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		09F1A9CCE680E00A7666AFB86554831B /* PKPainterScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PKPainterScrollView.h; sourceTree = "<group>"; };
 		11FCE323916398F18478898A9497D5E5 /* PainterKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PainterKit-umbrella.h"; sourceTree = "<group>"; };
 		17064B741501B0B5EF18202F5643CD78 /* Pods-PainterKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PainterKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1D6986A4C0314A3A2F91DF2535AC1B6F /* PainterKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PainterKit.modulemap; sourceTree = "<group>"; };
+		21DD5E9C1163D8F8D420A80A4D3F6CB4 /* PKPainterScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PKPainterScrollView.m; sourceTree = "<group>"; };
 		2389B4B322A52A65DF85E3427C3381F4 /* PainterKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PainterKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		263E1B179B375F808C54F7CBF4A83A0E /* Pods-PainterKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PainterKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		277ADED70D661D5F7824DAEB6D01AF80 /* Pods-PainterKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PainterKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		313D72DE6F8CD7D6749184B4F7A06D7E /* PKEraserDrawingTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PKEraserDrawingTool.m; sourceTree = "<group>"; };
+		334960F3FF04478F4C9794A44F3C6FC5 /* PKPainterContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PKPainterContentView.h; sourceTree = "<group>"; };
 		3B4A8EE5B5D484CF3C8CFB6E446057F2 /* Pods-PainterKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PainterKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3C5FA3AE59E751F1544A30B66E394BEB /* Pods-PainterKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PainterKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		426145E07D6757D8E1A5B3E0D750DB38 /* PKEraserDrawingTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PKEraserDrawingTool.h; sourceTree = "<group>"; };
 		4B2EE6CE138461BD59788A2BBD92670B /* Pods-PainterKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PainterKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4BED3360E09D539DA0C5FC72B3AAD562 /* PainterKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PainterKit.xcconfig; sourceTree = "<group>"; };
 		52CF53D65734552C1336E2C3C092CC30 /* Pods-PainterKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PainterKit_Tests-resources.sh"; sourceTree = "<group>"; };
 		545242C703DBBDCBEC57906A89044B20 /* Pods_PainterKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PainterKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55535663C7873AB0AB326CF52421672B /* PKPainterContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PKPainterContentView.m; sourceTree = "<group>"; };
+		56B481EC8A27F86E5A050DADEE45BA32 /* PKBaseDrawingTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PKBaseDrawingTool.h; sourceTree = "<group>"; };
 		6017984C5D08DB57169EA7B729E1FCC6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		629F14AF49175B12B8AA40A9D8BF9845 /* Pods-PainterKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PainterKit_Example.modulemap"; sourceTree = "<group>"; };
 		697A315C0B629FC906F68F10720194B1 /* Pods-PainterKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PainterKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		69BEC03E6B96D97B46A4C9AA85511875 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6BDB185F41CDFD59A11E96C518E5DFF1 /* PainterKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PainterKit-dummy.m"; sourceTree = "<group>"; };
 		7330D6FC7EC6A42501FC5B015619D7B7 /* Pods-PainterKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PainterKit_Example-resources.sh"; sourceTree = "<group>"; };
-		7CC1E0F40E12BB7485FCE59EAFD40E7D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		7DB693CF4C1571B98B13DC44B7EA8EC6 /* Pods_PainterKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PainterKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88350E6496CB28DE7FEE7DC90C9D015D /* PainterKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PainterKit-prefix.pch"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9BB56BFF3AA8F0466921034473F687F3 /* Pods-PainterKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PainterKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9FEC9651F898C1CB9F1442BC5A569229 /* PKBaseDrawingTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PKBaseDrawingTool.m; sourceTree = "<group>"; };
+		B6FBBB4F4FB669D2E56EEF66E71EC96F /* PKPainterLayerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PKPainterLayerView.m; sourceTree = "<group>"; };
+		B9AA72D2710D7DE805BD0B9A5415C239 /* PKPainterLayerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PKPainterLayerView.h; sourceTree = "<group>"; };
+		C905B2D2147EE253ADAE80E47FDAA8A8 /* PKBrushDrawingTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PKBrushDrawingTool.h; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CF900231E97AF22A8B234508DBD9FBB2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE41B0B95CF3034CF1C98E33E215A917 /* Pods-PainterKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PainterKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		E36682C94B1436D84301FD020A52FA9C /* Pods-PainterKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PainterKit_Tests.modulemap"; sourceTree = "<group>"; };
+		E75919954C8F4DCCAD4E872E832B2C78 /* PainterKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PainterKit.h; sourceTree = "<group>"; };
 		ECBF6B983C8BA85C5B2B82CC324F9AF4 /* Pods-PainterKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PainterKit_Example-dummy.m"; sourceTree = "<group>"; };
 		EEDD075062014A10445908D188EE995D /* Pods-PainterKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PainterKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		F5C3BAF715518A9ED4CEC46E1DF923C0 /* Pods-PainterKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PainterKit_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -65,19 +89,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		147F7502A0B22847E8A244AEBDF93192 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C617002D835C8E7763FFF7CD2BF54202 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6457F3161C4E88F4D333FC993EA6D723 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0125EB501729F59F935B207F94750FB4 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		75E5D020B7F1618723CF209E1CC5D437 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A0ECA61B50659E0B168DC64B526312D4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +128,34 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/PainterKit";
+			sourceTree = "<group>";
+		};
+		0C985D823E849A96CA196D283513AEFA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E75919954C8F4DCCAD4E872E832B2C78 /* PainterKit.h */,
+				56B481EC8A27F86E5A050DADEE45BA32 /* PKBaseDrawingTool.h */,
+				9FEC9651F898C1CB9F1442BC5A569229 /* PKBaseDrawingTool.m */,
+				C905B2D2147EE253ADAE80E47FDAA8A8 /* PKBrushDrawingTool.h */,
+				014303385A80CAB22CB7B10013E34E6B /* PKBrushDrawingTool.m */,
+				426145E07D6757D8E1A5B3E0D750DB38 /* PKEraserDrawingTool.h */,
+				313D72DE6F8CD7D6749184B4F7A06D7E /* PKEraserDrawingTool.m */,
+				334960F3FF04478F4C9794A44F3C6FC5 /* PKPainterContentView.h */,
+				55535663C7873AB0AB326CF52421672B /* PKPainterContentView.m */,
+				B9AA72D2710D7DE805BD0B9A5415C239 /* PKPainterLayerView.h */,
+				B6FBBB4F4FB669D2E56EEF66E71EC96F /* PKPainterLayerView.m */,
+				09F1A9CCE680E00A7666AFB86554831B /* PKPainterScrollView.h */,
+				21DD5E9C1163D8F8D420A80A4D3F6CB4 /* PKPainterScrollView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2E319DB944C88AB7419461C53D5A9CFA /* PainterKit */ = {
+			isa = PBXGroup;
+			children = (
+				0C985D823E849A96CA196D283513AEFA /* Classes */,
+			);
+			path = PainterKit;
 			sourceTree = "<group>";
 		};
 		334C235A937D1E8E1C16CB52011510EA /* Pods-PainterKit_Tests */ = {
@@ -161,18 +213,10 @@
 			);
 			sourceTree = "<group>";
 		};
-		989EF1959BAB067DD97449939FBC5272 /* PainterKit */ = {
-			isa = PBXGroup;
-			children = (
-				DB2C6DC49F22323A6251DEB2435696E2 /* Classes */,
-			);
-			path = PainterKit;
-			sourceTree = "<group>";
-		};
 		A3579A934526CC9BC0A9A082B30674BE /* PainterKit */ = {
 			isa = PBXGroup;
 			children = (
-				989EF1959BAB067DD97449939FBC5272 /* PainterKit */,
+				2E319DB944C88AB7419461C53D5A9CFA /* PainterKit */,
 				000B8321C094B517A5DC6990B4F2B856 /* Support Files */,
 			);
 			name = PainterKit;
@@ -214,30 +258,29 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		DB2C6DC49F22323A6251DEB2435696E2 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				7CC1E0F40E12BB7485FCE59EAFD40E7D /* ReplaceMe.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		28C3BBAC6826C7A8B2242C642E7B7B96 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40DED97CBC044C8DD1C700DA2394ED09 /* PainterKit-umbrella.h in Headers */,
+				7E625284080432148662C5A5123CD8FB /* PainterKit.h in Headers */,
+				4A21D704F0A76E8B6CC32C6221ACFDF9 /* PKBaseDrawingTool.h in Headers */,
+				88D5DA85071F85C2AD198A64324325DC /* PKBrushDrawingTool.h in Headers */,
+				1BD7B59B512C3D6816976C1096AA3C09 /* PKEraserDrawingTool.h in Headers */,
+				941C163804C77DC6091A730CC60B6553 /* PKPainterContentView.h in Headers */,
+				4AD7DDFF0CFD18AB136D88F3F3C57ECD /* PKPainterLayerView.h in Headers */,
+				A182DB2FEF948DF580D3A8F37BD2E049 /* PKPainterScrollView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6E0F7FB6B230B114D227D955ABB014E3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				85ADA99A9E97F4DB526CEBE104E59608 /* Pods-PainterKit_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C74F12A29EF287B749C7FC1896D3D876 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8BBB2074AFA6A5ADFE34948604C4CD02 /* PainterKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,13 +330,13 @@
 			productReference = 7DB693CF4C1571B98B13DC44B7EA8EC6 /* Pods_PainterKit_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F460DFC0E8F8B66813227B031ABAB7FA /* PainterKit */ = {
+		64F8D4B45004845FCB943555698DA432 /* PainterKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BE7E8B784429903ABA81D51E5800062B /* Build configuration list for PBXNativeTarget "PainterKit" */;
+			buildConfigurationList = 0E3CA5B89EBAD21FCB80440C0C8BE321 /* Build configuration list for PBXNativeTarget "PainterKit" */;
 			buildPhases = (
-				B84D2B4B120B88A98255EAF1DBD79927 /* Sources */,
-				75E5D020B7F1618723CF209E1CC5D437 /* Frameworks */,
-				C74F12A29EF287B749C7FC1896D3D876 /* Headers */,
+				1473FC1459E230EB2956FADF3314896B /* Sources */,
+				147F7502A0B22847E8A244AEBDF93192 /* Frameworks */,
+				28C3BBAC6826C7A8B2242C642E7B7B96 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -325,7 +368,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F460DFC0E8F8B66813227B031ABAB7FA /* PainterKit */,
+				64F8D4B45004845FCB943555698DA432 /* PainterKit */,
 				0E726A5056BC84BB66CDC92B970A0B87 /* Pods-PainterKit_Example */,
 				2C4BC62920F5FC48ADCBABCD30466F7C /* Pods-PainterKit_Tests */,
 			);
@@ -341,20 +384,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1473FC1459E230EB2956FADF3314896B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA343FD77D17437EC04DBBA8C9F0A1FF /* PainterKit-dummy.m in Sources */,
+				4BBACA6EE7C96A2D82054CB7DC2F657B /* PKBaseDrawingTool.m in Sources */,
+				11AD012B6D3C01F58687367CB0C377A4 /* PKBrushDrawingTool.m in Sources */,
+				9737DD217DF6D57D49BBE5F06741ED70 /* PKEraserDrawingTool.m in Sources */,
+				7CC0DDABCC1464B9A16EF313D8A2F75B /* PKPainterContentView.m in Sources */,
+				5277C34243A7061245C0D7654925B5DA /* PKPainterLayerView.m in Sources */,
+				F1A7C1E2C44FD45647040FF3F96D127E /* PKPainterScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		70A5FE061A033BA796DD91E1B6360F4A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				95F50710C0FFD693127B5B6CC9BF4A31 /* Pods-PainterKit_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B84D2B4B120B88A98255EAF1DBD79927 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D0B837A3D685EBC6688E0D276848DA80 /* PainterKit-dummy.m in Sources */,
-				F6962181667572756098881958A4EEB8 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,7 +412,7 @@
 		494107DAB7CCBA634972C698FBAB7F59 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PainterKit;
-			target = F460DFC0E8F8B66813227B031ABAB7FA /* PainterKit */;
+			target = 64F8D4B45004845FCB943555698DA432 /* PainterKit */;
 			targetProxy = 509F4D78C0B3514B184199F5E986EA2E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -405,35 +453,6 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		2D1429311334806A61DC93B47DC37B3B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4BED3360E09D539DA0C5FC72B3AAD562 /* PainterKit.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PainterKit/PainterKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PainterKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PainterKit/PainterKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = PainterKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -495,35 +514,6 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_PainterKit_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		606628C73A497606B1B1CA1451AAD149 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4BED3360E09D539DA0C5FC72B3AAD562 /* PainterKit.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PainterKit/PainterKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PainterKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PainterKit/PainterKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = PainterKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -598,6 +588,64 @@
 			};
 			name = Release;
 		};
+		B3EFA8F5B0BD3C9735DA6A9C6B01028F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BED3360E09D539DA0C5FC72B3AAD562 /* PainterKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PainterKit/PainterKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PainterKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PainterKit/PainterKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PainterKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B875DB3783A36713E4CB7E101F9D833B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BED3360E09D539DA0C5FC72B3AAD562 /* PainterKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PainterKit/PainterKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PainterKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PainterKit/PainterKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PainterKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -643,6 +691,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0E3CA5B89EBAD21FCB80440C0C8BE321 /* Build configuration list for PBXNativeTarget "PainterKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3EFA8F5B0BD3C9735DA6A9C6B01028F /* Debug */,
+				B875DB3783A36713E4CB7E101F9D833B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -666,15 +723,6 @@
 			buildConfigurations = (
 				47411E6DD042A146753D556F7DA4962A /* Debug */,
 				A805AAE2A1D55DE87B145002A386D23B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BE7E8B784429903ABA81D51E5800062B /* Build configuration list for PBXNativeTarget "PainterKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				606628C73A497606B1B1CA1451AAD149 /* Debug */,
-				2D1429311334806A61DC93B47DC37B3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
