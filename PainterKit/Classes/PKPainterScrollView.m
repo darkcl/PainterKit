@@ -10,7 +10,7 @@
 
 #import "PKPainterContentView.h"
 
-@interface PKPainterScrollView() {
+@interface PKPainterScrollView() <UIScrollViewDelegate> {
     PKPainterContentView *contentView;
 }
 
