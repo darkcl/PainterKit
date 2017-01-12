@@ -17,4 +17,6 @@
 
 @property (nonatomic, strong) NSMutableArray *steps;
 
+@property (nonatomic, strong) NSUndoManager *painterUndoManager;
+
 @end

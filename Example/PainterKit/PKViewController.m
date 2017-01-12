@@ -69,5 +69,15 @@
         NSLog(@"the cachedImagedPath is %@",imagePath);
     }
 }
+- (IBAction)undoButtonPressed:(id)sender {
+    if (self.painterScrollView.painterUndoManager.canUndo) {
+        [self.painterScrollView.painterUndoManager undo];
+    }
+}
+- (IBAction)redoButtonPressed:(id)sender {
+    if (self.painterScrollView.painterUndoManager.canRedo) {
+        [self.painterScrollView.painterUndoManager redo];
+    }
+}
 
 @end

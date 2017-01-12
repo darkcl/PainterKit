@@ -71,6 +71,10 @@
 }
 */
 
+- (NSUndoManager *)painterUndoManager{
+    return painterLayerView.painterUndoManager;
+}
+
 - (UIImage *)resultImage{
     CGSize imageSize = originalImage.size;
     

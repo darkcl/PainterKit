@@ -20,4 +20,6 @@
 
 - (UIImage *)resultImage;
 
+- (NSUndoManager *)painterUndoManager;
+
 @end

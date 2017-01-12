@@ -80,17 +80,23 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tkM-tC-OY8">
                                 <rect key="frame" x="20" y="20" width="560" height="50"/>
                                 <subviews>
-                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Xz-OU-AMn">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Xz-OU-AMn">
                                         <rect key="frame" x="140" y="0.0" width="140" height="50"/>
-                                        <state key="normal" title="Eraser"/>
+                                        <state key="normal" title="Undo"/>
+                                        <connections>
+                                            <action selector="undoButtonPressed:" destination="whP-gf-Uak" eventType="touchUpInside" id="EpT-af-set"/>
+                                        </connections>
                                     </button>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sn0-Bx-5XW">
                                         <rect key="frame" x="420" y="0.0" width="140" height="50"/>
                                         <state key="normal" title="Save"/>
                                     </button>
-                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zUj-Qh-Fb8">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zUj-Qh-Fb8">
                                         <rect key="frame" x="280" y="0.0" width="140" height="50"/>
-                                        <state key="normal" title="Scroll"/>
+                                        <state key="normal" title="Redo"/>
+                                        <connections>
+                                            <action selector="redoButtonPressed:" destination="whP-gf-Uak" eventType="touchUpInside" id="dYC-xc-tHa"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mnj-Fb-xiS">
                                         <rect key="frame" x="0.0" y="0.0" width="140" height="50"/>
