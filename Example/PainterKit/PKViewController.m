@@ -10,6 +10,8 @@
 
 #import <PainterKit/PainterKit.h>
 
+#import "PKCustomDrawingTool.h"
+
 @interface PKViewController ()
 @property (strong, nonatomic) IBOutlet PKPainterScrollView *painterScrollView;
 
@@ -36,6 +38,12 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (IBAction)cutomBrushButtonPressed:(id)sender {
+    [self.painterScrollView setIsPainting:YES];
+    [self.painterScrollView setCurrentDrawingTool:[[PKCustomDrawingTool alloc] init]];
+}
+
 - (IBAction)brushButtonPressed:(id)sender {
     [self.painterScrollView setIsPainting:YES];
     [self.painterScrollView setCurrentDrawingTool:[PKBrushDrawingTool brushWithSize:3.0 color:[UIColor blueColor]]];

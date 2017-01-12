@@ -77,14 +77,65 @@
                                     <constraint firstAttribute="bottom" secondItem="7nF-SR-EBO" secondAttribute="bottom" id="yvm-rF-bOU"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tkM-tC-OY8">
+                                <rect key="frame" x="20" y="20" width="560" height="50"/>
+                                <subviews>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Xz-OU-AMn">
+                                        <rect key="frame" x="140" y="0.0" width="140" height="50"/>
+                                        <state key="normal" title="Eraser"/>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sn0-Bx-5XW">
+                                        <rect key="frame" x="420" y="0.0" width="140" height="50"/>
+                                        <state key="normal" title="Save"/>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zUj-Qh-Fb8">
+                                        <rect key="frame" x="280" y="0.0" width="140" height="50"/>
+                                        <state key="normal" title="Scroll"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mnj-Fb-xiS">
+                                        <rect key="frame" x="0.0" y="0.0" width="140" height="50"/>
+                                        <state key="normal" title="Custom Brush"/>
+                                        <connections>
+                                            <action selector="cutomBrushButtonPressed:" destination="whP-gf-Uak" eventType="touchUpInside" id="6sR-Up-0Js"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="Sn0-Bx-5XW" firstAttribute="top" secondItem="tkM-tC-OY8" secondAttribute="top" id="2md-YN-ZRT"/>
+                                    <constraint firstItem="Mnj-Fb-xiS" firstAttribute="leading" secondItem="tkM-tC-OY8" secondAttribute="leading" id="Cug-7m-Ajc"/>
+                                    <constraint firstItem="0Xz-OU-AMn" firstAttribute="leading" secondItem="Mnj-Fb-xiS" secondAttribute="trailing" id="HHD-od-I6C"/>
+                                    <constraint firstAttribute="height" constant="50" id="OeP-1X-PKd"/>
+                                    <constraint firstAttribute="bottom" secondItem="Mnj-Fb-xiS" secondAttribute="bottom" id="POi-yr-VYP"/>
+                                    <constraint firstAttribute="bottom" secondItem="zUj-Qh-Fb8" secondAttribute="bottom" id="QJY-Vn-LWJ"/>
+                                    <constraint firstItem="0Xz-OU-AMn" firstAttribute="top" secondItem="tkM-tC-OY8" secondAttribute="top" id="TL6-uy-d9L"/>
+                                    <constraint firstItem="zUj-Qh-Fb8" firstAttribute="leading" secondItem="0Xz-OU-AMn" secondAttribute="trailing" id="WeR-Oi-YTR"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="Wm4-Gh-iE2"/>
+                                    <constraint firstItem="Sn0-Bx-5XW" firstAttribute="width" secondItem="Mnj-Fb-xiS" secondAttribute="width" id="Y7B-oZ-xzv"/>
+                                    <constraint firstItem="zUj-Qh-Fb8" firstAttribute="top" secondItem="tkM-tC-OY8" secondAttribute="top" id="YXb-vT-w44"/>
+                                    <constraint firstItem="0Xz-OU-AMn" firstAttribute="width" secondItem="Mnj-Fb-xiS" secondAttribute="width" id="ZTQ-Pl-uhM"/>
+                                    <constraint firstItem="zUj-Qh-Fb8" firstAttribute="width" secondItem="Mnj-Fb-xiS" secondAttribute="width" id="gq4-Ne-vdx"/>
+                                    <constraint firstItem="Mnj-Fb-xiS" firstAttribute="top" secondItem="tkM-tC-OY8" secondAttribute="top" id="lXQ-5u-IeU"/>
+                                    <constraint firstItem="zUj-Qh-Fb8" firstAttribute="leading" secondItem="0Xz-OU-AMn" secondAttribute="trailing" id="o1E-sn-HA6"/>
+                                    <constraint firstItem="Sn0-Bx-5XW" firstAttribute="leading" secondItem="zUj-Qh-Fb8" secondAttribute="trailing" id="pjB-PY-OsE"/>
+                                    <constraint firstItem="0Xz-OU-AMn" firstAttribute="leading" secondItem="Mnj-Fb-xiS" secondAttribute="trailing" id="pzx-6B-Qwc"/>
+                                    <constraint firstItem="Sn0-Bx-5XW" firstAttribute="leading" secondItem="zUj-Qh-Fb8" secondAttribute="trailing" id="qfg-cB-SSH"/>
+                                    <constraint firstAttribute="bottom" secondItem="0Xz-OU-AMn" secondAttribute="bottom" id="wXv-Oq-aEB"/>
+                                    <constraint firstAttribute="trailing" secondItem="Sn0-Bx-5XW" secondAttribute="trailing" id="yLf-Sp-R9d"/>
+                                    <constraint firstAttribute="bottom" secondItem="Sn0-Bx-5XW" secondAttribute="bottom" id="yXW-93-rNW"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="tkM-tC-OY8" firstAttribute="top" secondItem="TpU-gO-2f1" secondAttribute="topMargin" constant="20" id="0sN-YX-aa6"/>
                             <constraint firstItem="SjY-p0-HKd" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" id="7Yr-LO-w1K"/>
                             <constraint firstItem="uVw-C6-oqr" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" id="QM0-Dy-kHQ"/>
                             <constraint firstItem="uVw-C6-oqr" firstAttribute="trailing" secondItem="TpU-gO-2f1" secondAttribute="trailingMargin" id="S8W-Di-rqc"/>
                             <constraint firstItem="Mvr-aV-6Um" firstAttribute="top" secondItem="SjY-p0-HKd" secondAttribute="bottom" id="XAC-Kk-RVH"/>
                             <constraint firstItem="SjY-p0-HKd" firstAttribute="trailing" secondItem="TpU-gO-2f1" secondAttribute="trailingMargin" id="fDJ-q5-ahk"/>
+                            <constraint firstItem="tkM-tC-OY8" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" id="jHe-WY-wLx"/>
+                            <constraint firstItem="tkM-tC-OY8" firstAttribute="trailing" secondItem="TpU-gO-2f1" secondAttribute="trailingMargin" id="klj-Lc-ArG"/>
                             <constraint firstItem="Mvr-aV-6Um" firstAttribute="top" secondItem="uVw-C6-oqr" secondAttribute="bottom" id="n6g-pD-2Rn"/>
                             <constraint firstItem="SjY-p0-HKd" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" id="vFH-Aj-282"/>
                         </constraints>
@@ -95,7 +146,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="101" y="287"/>
+            <point key="canvasLocation" x="-253" y="201"/>
         </scene>
     </scenes>
 </document>
