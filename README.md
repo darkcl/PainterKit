@@ -1,6 +1,5 @@
 # PainterKit
 
-[![CI Status](http://img.shields.io/travis/Yeung Yiu Hung/PainterKit.svg?style=flat)](https://travis-ci.org/Yeung Yiu Hung/PainterKit)
 [![Version](https://img.shields.io/cocoapods/v/PainterKit.svg?style=flat)](http://cocoapods.org/pods/PainterKit)
 [![License](https://img.shields.io/cocoapods/l/PainterKit.svg?style=flat)](http://cocoapods.org/pods/PainterKit)
 [![Platform](https://img.shields.io/cocoapods/p/PainterKit.svg?style=flat)](http://cocoapods.org/pods/PainterKit)
